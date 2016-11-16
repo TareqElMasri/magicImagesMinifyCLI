@@ -2,7 +2,7 @@ const $ = {
     fs: require('fs-extra'),
     ora: require('ora'),
     glob: require('glob'),
-				path: require('path'),
+    path: require('path'),
     imagemin: require('imagemin'),
     svgomin: require('imagemin-svgo'),
     webpmin: require('imagemin-webp'),
@@ -23,16 +23,16 @@ $.fs.emptydir('imagesBuild', (fsError) => {
             }
             if (!globError) {
                 $.spinner.succeed();
-																$.spinner = $.ora("Minifying images").start();
+                $.spinner = $.ora("Minifying images").start();
                 $.minifyingQ = () => {
                     $.$index++;
-																				$.spinner.text = `Minifying images: ${$.$index} of ${$.imagesLength} (${$.calculateProgress()}%)`;
+                    $.spinner.text = `Minifying images: ${$.$index} of ${$.imagesLength} (${$.calculateProgress()}%)`;
                     $.imagemin([imagesFiles[$.$index - 1]], `imagesBuild/${$.path.dirname(imagesFiles[$.$index - 1])}`, {
                         plugins: [
                             $.mozjpeg(),
                             $.pngquant(),
                             $.gifsicle(),
-																												// $.webpmin(), // Exports webp
+                            // $.webpmin(), // Exports webp
                             $.svgomin()
                         ]
                     }).then(result => {
@@ -40,7 +40,7 @@ $.fs.emptydir('imagesBuild', (fsError) => {
                         else $.spinner.succeed();
                     }, (error => {
                         $.spinner.fail();
-																								console.error(error);
+                        console.error(error);
                         $.minifyingQ(imagesFiles[$.$index]);
                     }));
                 };
