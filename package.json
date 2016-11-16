@@ -1,0 +1,23 @@
+{
+  "name": "minify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minify.js",
+  "scripts": {
+    "start": "node minify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tareq El-Masri <tareq@masri.me> (http://masri.me)",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "glob": "^7.1.1",
+    "imagemin": "^5.2.2",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "imagemin-svgo": "^5.2.0",
+    "imagemin-webp": "^4.0.0",
+    "ora": "^0.3.0"
+  }
+}
