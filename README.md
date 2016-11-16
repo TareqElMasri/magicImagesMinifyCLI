@@ -15,7 +15,7 @@ cp magicImagesMinifyCLI/minify.js magicImagesMinifyCLI/package.json /path/to/dir
 - Second by installing the dependencies using npm or yarn
 ```
 npm install 
-yarn // OR
+yarn # OR
 ```
 - Finally by running the script
 ```
