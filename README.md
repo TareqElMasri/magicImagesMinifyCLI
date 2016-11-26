@@ -1,4 +1,5 @@
 # Magic Images Minify CLI 🌈
+![Screencapture magicImagesMinifyCLI](demo.gif)
 ### What is this?
 This is a light magical tool/script, just by injecting the script file in any folder it will automagically search for images and minify it in a build folder with the same hierarchy.
 ### Why I made this?
@@ -14,7 +15,7 @@ cp magicImagesMinifyCLI/minify.js magicImagesMinifyCLI/package.json /path/to/dir
 ```
 - Second by installing the dependencies using npm or yarn
 ```
-npm install 
+npm install
 yarn # OR
 ```
 - Finally by running the script
