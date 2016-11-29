@@ -3,3 +3,8 @@ yarn.lock
 imagesBuild
 *.jpg
 *.png
+*.jpeg
+*.webp
+*.bmp
+*.gif
+*.svg
