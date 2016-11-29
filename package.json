@@ -1,23 +1,36 @@
 {
-  "name": "minify",
-  "version": "1.0.0",
-  "description": "",
-  "main": "minify.js",
-  "scripts": {
-    "start": "node minify.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Tareq El-Masri <tareq@masri.me> (http://masri.me)",
-  "license": "ISC",
-  "dependencies": {
-    "fs-extra": "^1.0.0",
-    "glob": "^7.1.1",
-    "imagemin": "^5.2.2",
-    "imagemin-gifsicle": "^5.1.0",
-    "imagemin-mozjpeg": "^6.0.0",
-    "imagemin-pngquant": "^5.0.0",
-    "imagemin-svgo": "^5.2.0",
-    "imagemin-webp": "^4.0.0",
-    "ora": "^0.3.0"
-  }
+    "name": "@tareqelmasri/magic-images-minify",
+    "version": "1.0.0",
+    "description": "A light magical tool/script, just by running it, it will automagically search for images and minify it in a build folder with the same hierarchy.",
+    "main": "minify.js",
+    "scripts": {
+        "start": "node minify.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Tareq El-Masri <tareq@masri.me> (http://masri.me)",
+    "license": "ISC",
+    "dependencies": {
+        "fs-extra": "^1.0.0",
+        "glob": "^7.1.1",
+        "imagemin": "^5.2.2",
+        "imagemin-gifsicle": "^5.1.0",
+        "imagemin-mozjpeg": "^6.0.0",
+        "imagemin-pngquant": "^5.0.0",
+        "imagemin-svgo": "^5.2.0",
+        "imagemin-webp": "^4.0.0",
+        "ora": "^0.3.0"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TareqElMasri/magicImagesMinifyCLI.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TareqElMasri/magicImagesMinifyCLI/issues"
+    },
+    "bin": {
+        "magic-images-minify": "bin/build.js",
+        "mic": "bin/build.js"
+    },
+    "homepage": "https://github.com/TareqElMasri/magicImagesMinifyCLI#readme"
 }

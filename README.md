@@ -8,6 +8,16 @@ For the glory of satan of course. 😈
 It's made with the holy node.js ❤️, uses imagemin, glob and fs for finding/managing/minifying images files.
 ### How can I use it?
 I thought you'd never ask.
+#### Npm Global
+```
+	npm install -g magic-images-minify
+```
+#### Yarn
+```
+	yarn add global magic-images-minify
+```
+
+#### Manually
 - First by cloning the repesitory and copying the files in the same directory it contains images.
 ```
 git clone https://github.com/TareqElMasri/magicImagesMinifyCLI

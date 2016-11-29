@@ -20,7 +20,7 @@ $.fs.emptydir('imagesBuild', (fsError) => {
             $.imagesLength = imagesFiles.length;
             $.calculateProgress = () => {
                 return Math.round($.$index / $.imagesLength * 100);
-            }
+            };
             if (!globError) {
                 $.spinner.succeed();
                 $.spinner = $.ora("Minifying images").start();
