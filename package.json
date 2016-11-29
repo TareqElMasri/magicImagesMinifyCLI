@@ -1,5 +1,5 @@
 {
-    "name": "@tareqelmasri/magic-images-minify",
+    "name": "magic-images-minify",
     "version": "1.0.0",
     "description": "A light magical tool/script, just by running it, it will automagically search for images and minify it in a build folder with the same hierarchy.",
     "main": "minify.js",
