@@ -10,11 +10,11 @@ It's made with the holy node.js ❤️, uses imagemin, glob and fs for finding/m
 I thought you'd never ask.
 #### Npm Global
 ```
-	npm install -g magic-images-minify
+npm install -g magic-images-minify
 ```
 #### Yarn
 ```
-	yarn add global magic-images-minify
+yarn add global magic-images-minify
 ```
 
 #### Manually
