@@ -16,6 +16,7 @@ npm install -g magic-images-minify
 ```
 yarn add global magic-images-minify
 ```
+Then just by running `mic` in command line.
 
 #### Manually
 - First by cloning the repesitory and copying the files in the same directory it contains images.
