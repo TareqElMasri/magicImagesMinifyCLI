@@ -1,6 +1,6 @@
 {
     "name": "magic-images-minify",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "A light magical tool/script, just by running it, it will automagically search for images and minify it in a build folder with the same hierarchy.",
     "main": "minify.js",
     "scripts": {
@@ -10,15 +10,14 @@
     "author": "Tareq El-Masri <tareq@masri.me> (http://masri.me)",
     "license": "ISC",
     "dependencies": {
-        "fs-extra": "^1.0.0",
-        "glob": "^7.1.1",
-        "imagemin": "^5.2.2",
-        "imagemin-gifsicle": "^5.1.0",
-        "imagemin-mozjpeg": "^6.0.0",
-        "imagemin-pngquant": "^5.0.0",
-        "imagemin-svgo": "^5.2.0",
-        "imagemin-webp": "^4.0.0",
-        "ora": "^0.3.0"
+        "fs-extra": "^8.1.0",
+        "glob": "^7.1.4",
+        "imagemin": "^7.0.0",
+        "imagemin-gifsicle": "^6.0.1",
+        "imagemin-jpegtran": "^6.0.0",
+        "imagemin-pngquant": "^8.0.0",
+        "imagemin-svgo": "^7.0.0",
+        "ora": "^3.4.0"
     },
     "devDependencies": {},
     "repository": {

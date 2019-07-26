@@ -14,9 +14,9 @@ npm install -g magic-images-minify
 ```
 #### Yarn
 ```
-yarn add global magic-images-minify
+yarn global add magic-images-minify
 ```
-Then just by running `mic` in command line.
+Then just by running `mic` or `magic-images-minify` in command line.
 
 #### Manually
 - First by cloning the repesitory and copying the files in the same directory it contains images.
@@ -26,8 +26,7 @@ cp magicImagesMinifyCLI/minify.js magicImagesMinifyCLI/package.json /path/to/dir
 ```
 - Second by installing the dependencies using npm or yarn
 ```
-npm install
-yarn # OR
+npm install # OR yarn
 ```
 - Finally by running the script
 ```
